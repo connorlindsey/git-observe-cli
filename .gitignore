@@ -1,0 +1,4 @@
+# Node modules. Boo!
+node_modules
+
+.env
