@@ -1,0 +1,40 @@
+{
+  "name": "git-observe",
+  "version": "1.0.0",
+  "description": "A CLI to gather Github metrics across contributors and repos",
+  "main": "src/index.js",
+  "bin": {
+    "git-observe": "bin/git-observe"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorlindsey/git-observe-cli.git"
+  },
+  "keywords": [
+    "git",
+    "metrics",
+    "cli",
+    "git-observe"
+  ],
+  "author": "Connor Lindsey <cblindsey3@gmail.com> (https://connorlindsey.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connorlindsey/git-observe-cli/issues"
+  },
+  "homepage": "https://github.com/connorlindsey/git-observe-cli#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "inquirer": "^7.2.0"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ]
+}
